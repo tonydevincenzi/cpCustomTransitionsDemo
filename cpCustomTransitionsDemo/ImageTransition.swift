@@ -74,14 +74,4 @@ class ImageTransition: BaseTransition {
                 self.finish()
         }
     }
-    
-//    override func interactionControllerForPresentation(animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-//          print("HI")
-//        interactiveTransition = UIPercentDrivenInteractiveTransition()
-//        //Setting the completion speed gets rid of a weird bounce effect bug when transitions complete
-//        interactiveTransition.completionSpeed = 0.99
-//        return interactiveTransition
-//    }
-    
-    
 }
