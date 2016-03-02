@@ -14,6 +14,10 @@
 		EAF7ECC41C8699F50053DDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF7ECC21C8699F50053DDCE /* LaunchScreen.storyboard */; };
 		EAF7ECCF1C8699F50053DDCE /* cpCustomTransitionsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7ECCE1C8699F50053DDCE /* cpCustomTransitionsDemoTests.swift */; };
 		EAF7ECDA1C8699F50053DDCE /* cpCustomTransitionsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7ECD91C8699F50053DDCE /* cpCustomTransitionsDemoUITests.swift */; };
+		EAF7ECE81C869A280053DDCE /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7ECE71C869A280053DDCE /* BaseTransition.swift */; };
+		EAF7ECEA1C869A2C0053DDCE /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7ECE91C869A2C0053DDCE /* ImageTransition.swift */; };
+		EAF7ECEC1C869A310053DDCE /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7ECEB1C869A310053DDCE /* NewsFeedViewController.swift */; };
+		EAF7ECEE1C869A350053DDCE /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7ECED1C869A350053DDCE /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		EAF7ECD51C8699F50053DDCE /* cpCustomTransitionsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpCustomTransitionsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF7ECD91C8699F50053DDCE /* cpCustomTransitionsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpCustomTransitionsDemoUITests.swift; sourceTree = "<group>"; };
 		EAF7ECDB1C8699F50053DDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF7ECE71C869A280053DDCE /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		EAF7ECE91C869A2C0053DDCE /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		EAF7ECEB1C869A310053DDCE /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		EAF7ECED1C869A350053DDCE /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		EAF7ECB81C8699F50053DDCE /* cpCustomTransitionsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EAF7ECE71C869A280053DDCE /* BaseTransition.swift */,
 				EAF7ECB91C8699F50053DDCE /* AppDelegate.swift */,
+				EAF7ECE91C869A2C0053DDCE /* ImageTransition.swift */,
 				EAF7ECBB1C8699F50053DDCE /* ViewController.swift */,
+				EAF7ECED1C869A350053DDCE /* PhotoViewController.swift */,
+				EAF7ECEB1C869A310053DDCE /* NewsFeedViewController.swift */,
 				EAF7ECBD1C8699F50053DDCE /* Main.storyboard */,
 				EAF7ECC01C8699F50053DDCE /* Assets.xcassets */,
 				EAF7ECC21C8699F50053DDCE /* LaunchScreen.storyboard */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF7ECBC1C8699F50053DDCE /* ViewController.swift in Sources */,
+				EAF7ECE81C869A280053DDCE /* BaseTransition.swift in Sources */,
+				EAF7ECEA1C869A2C0053DDCE /* ImageTransition.swift in Sources */,
 				EAF7ECBA1C8699F50053DDCE /* AppDelegate.swift in Sources */,
+				EAF7ECEC1C869A310053DDCE /* NewsFeedViewController.swift in Sources */,
+				EAF7ECEE1C869A350053DDCE /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
